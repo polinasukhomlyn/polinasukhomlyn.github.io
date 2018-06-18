@@ -1,0 +1,253 @@
+body {
+   background-image: url("../img/background-1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {
+    display: block;
+    width: 100vw;
+    min-height: 100%;
+    max-width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+section#s1 {
+    padding-bottom: 0px;
+}
+section#s2 {
+
+}
+section#s3 {
+    min-height: 100vh;
+} 
+
+section#s4 {
+    min-height: 100vh;
+} 
+section#s5 {
+    min-height: 100vh;
+}
+
+#s1 .carousel-item {
+    height: calc( 100vh - 60px);
+}
+#s1 .carousel-item .f2 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#s1 .carousel img {
+  height: 100vh;
+  width: auto;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-item {
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+}
+
+.navbar {
+    height: 60px;
+    padding: 0;
+}
+.navbar-collapse {
+    background-color: inherit;
+}
+.carousel-control-prev-icon {
+    margin-left: -100px;
+    height: 30px;
+    width: 30px;
+}
+.carousel-control-next-icon {
+    margin-right: -100px;
+    height: 30px;
+    width: 30px;
+}
+
+.second-page {
+    padding: 25px 15px;
+}
+
+.text-on-slider {
+    position: absolute;
+    width: 50%;
+    bottom: 60px;
+    text-align: center;
+    left: 25%;
+    margin-right: -25%;
+    padding: 5px;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'Neucha', cursive;
+    background-image: url("../img/text-background.png");
+}
+
+.text-background {
+    position: relative;
+    bottom: -50px;
+    width: 100%;
+}
+
+.carousel {
+    position: relative;
+    
+}
+
+.img-top {
+    margin-bottom: 20px;
+}
+
+.img-bottom {
+    margin-top: 20px;
+}
+
+
+.worktext {
+    font-family: 'Neucha', cursive;
+    font-size: 18px;
+    word-wrap: break-word;
+    padding: 0px 10px 0px 10px;
+}
+
+
+
+#animate-img img.animate-second {
+ position:absolute;
+left: 0;
+top: 0;
+}
+
+#animate-img img.animate-first {
+    opacity: 0;
+}
+#animate-img:hover img.animate-first {
+    opacity: 1;
+}
+#animate-img:hover img.animate-second, #animate-img img.animate-second:hover {
+    opacity:0;
+   -moz-transition: all 1s ease;
+   -webkit-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   transition: all 1s ease;
+}
+
+.center-block {		
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.work-image {
+    margin-bottom: 20px;
+}
+
+.wolf {
+    width: 100%;
+}
+.redhood {
+    width: 60%;
+}
+.grandma {
+    width: 50%;
+}
+.woodcutter {
+    width: 100%;
+}
+
+.img-top, .img-bottom {
+    width: 90%;
+    position: relative;
+}
+
+.last-section-name, .end-text {
+    
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+    font-family: 'Neucha', cursive;
+}
+
+.last-section-name {
+    margin-top: 30px;
+}
+
+.end-text {
+    margin-bottom: 60px;
+}
+
+.icons {
+    margin-bottom: 20px;
+}
+
+.fa-3x {
+    color: #000000;
+}
+
+#carousel-last-page {
+    width: 80%;
+}
+
+.prev-icon-2 {
+    margin-left: -180px;
+}
+
+.next-icon-2 {
+    margin-right: -180px;
+}
+
+
+
+
+.gal {
+    column-count: 3;
+    transition: all 1s ease;
+}
+
+/* sm */
+
+@media (max-width: 768px) {
+    .gal {
+        column-count: 2;
+    }
+}
+
+/* extra sm */
+
+@media (max-width: 576px) {
+    .gal {
+        column-count: 1;
+    }
+}
+
+.gal * {
+    outline: 0;
+}
+
+.gal img {
+    width: 100%;
+    padding: 0.5em 0;
+    transition: all 1s ease;
+}
+
+.gallery-style {
+    margin-top: 30px;
+}
+
+.characters-block {
+    margin-top: 10px;
+}
