@@ -251,3 +251,9 @@ top: 0;
 .characters-block {
     margin-top: 10px;
 }
+
+@media (max-width: 576px) {
+  .navbar-nav {
+     padding-left: 1em;
+  }
+}
